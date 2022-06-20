@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/Background-Body.jpg);
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.61);
+    background-color: rgba(188, 214, 247, 0.432);
+    box-shadow: 2px 2px 2px 2px rgba(215, 224, 236, 0.432);
+    .title{
+        padding-left: 35px;
+        font-size: 40px;
+        text-shadow: 0px 0px 4px  rgba(255, 255, 255, 0.61);
+    }
+    button{
+        padding-left: 60px;
+        font-size: 17px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        gap:10px;
+    }
+    .titlebtn{
+        text-shadow: 0px 0px 4px rgb(7, 189, 7);
+        color: rgb(7, 189, 7);
+    }
+    .titlebtn2{
+        text-shadow: 0px 0px 4px red;
+        color:red;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap:25px;
+        padding-top: 20px;
+        padding-right: 30px;
+        li,a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+    }
+  }
+  main{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    .FirstSubject-Moon{
+        width: 70vw;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        gap:10px;
+        background-color: rgba(240, 248, 255, 0.267);
+        box-shadow: 0px 1px 8px 6px rgb(240 248 255 / 27%);
+        img{
+            height: 220px;
+            width: 200px;
+            padding-left: 5px;
+        }
+        h2{
+            font-size: 40px;
+            text-shadow: 0 0 4px black;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+            
+        }
+    }
+    .TwoSubject-Moon{
+        width: 70vw;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap:10px;
+        background-color: rgba(240, 248, 255, 0.267);
+        box-shadow: 0px 1px 8px 6px rgb(240 248 255 / 27%);
+        img{
+            height: 220px;
+            width: 200px;
+            padding-left: 5px;
+        }
+        h2{
+            font-size: 40px;
+            text-shadow: 0 0 4px black;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+    .ThreeSubject-Moon{
+        width: 70vw;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        gap:10px;
+        background-color: rgba(240, 248, 255, 0.267);
+        box-shadow: 0px 1px 8px 6px rgb(240 248 255 / 27%);
+        img{
+            height: 220px;
+            width: 200px;
+            padding-left: 5px;
+        }
+        h2{
+            font-size: 40px;
+            text-shadow: 0 0 4px black;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+  }
+  footer{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    text-shadow: 0 0 4px green;
+  }
+}
